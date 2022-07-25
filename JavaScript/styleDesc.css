@@ -1,0 +1,235 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: visible;
+  text-align: center;
+}
+.content {
+  display: inline;
+}
+.container {
+  width: 100%;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  display: inline-block;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  margin-top: 5px;
+  padding-right: 8px;
+}
+
+.profile-content.text {
+  display: inline-block;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21.79px;
+  color: #000000;
+  margin-left: 15px;
+}
+
+.profile-content.instagram_logo {
+  float: right;
+  margin-top: 22px;
+  margin-right: 8px;
+}
+
+.profile-content.profile_image {
+  float: left;
+  width: 48px;
+  height: 48px;
+  border-radius: 48%;
+  overflow: hidden;
+  margin-left: 16px;
+  margin-top: 14.7px;
+}
+
+.profile-content p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: -14px;
+  margin-left: -65px;
+  color: #000000;
+}
+
+#img-post {
+  width: 400px;
+  height: 325px;
+  margin-left: 16px;
+}
+
+.caption {
+  width: 389.91px;
+  height: 62.25px;
+  text-align: left;
+  margin-left: 15px;
+  overflow: hidden;
+}
+
+.caption p {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  margin-bottom: 40px;
+}
+
+.bottom-likes {
+  margin-top: 35px;
+}
+
+.likes-heart {
+  display: inline-block;
+  float: left;
+  cursor:pointer;
+  margin-top: 17.6px;
+  margin-left: 12px;
+}
+
+.likes {
+  display: inline-block;
+  float: left;
+  margin-left: 5px;
+}
+
+.line-border {
+  border-bottom: 1px solid #e0e0e0;
+  width: 398px;
+  margin-left: 15px;
+}
+
+.svgObject {
+  pointer-events:none;
+}
+
+#button {
+  margin-bottom: 10px;
+  margin-top: 40px;
+  border-radius: 5px;
+  padding: 20px;
+  color: #ffffff;
+  background-color: #0081ff;
+  text-align: center;
+  font-family: "Open Sans";
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 13px;
+}
+
+@media screen and (max-width: 767) {
+  .content {
+    width: 30%;
+  }
+
+  .card {
+    width: 20%;
+    display: inline-block;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    margin-top: 5px;
+    padding-right: 8px;
+  }
+  .post-image #img-post {
+    width: 80%;
+  }
+  .caption {
+    width: 80%;
+  }
+
+  .caption p {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 80%;
+    line-height: 22px;
+  }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .content {
+    display: inline-block;
+    width: 49%;
+    padding: 0px;
+    margin: 0px;
+  }
+  .card {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 993px) {
+  .container {
+    width: 100%;
+  }
+
+  .content {
+    width: 30%;
+  }
+  .card {
+    width: 20%;
+    display: inline-block;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    margin-top: 5px;
+    padding-right: 8px;
+  }
+  .post-image #img-post {
+    width: 80%;
+  }
+  .caption {
+    width: 80%;
+  }
+
+  .caption p {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .profile-content.profile_image {
+    float: left;
+    width: 15%;
+    border-radius: 48%;
+    overflow: hidden;
+    margin-left: 16px;
+    margin-top: 7px;
+  }
+
+  .profile-content.instagram_logo {
+    float: right;
+    margin-top: 22px;
+  }
+
+  .profile-content p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: -14px;
+    margin-left: -9px;
+    color: #000000;
+  }
+
+  .profile-content.text {
+    display: inline-block;
+    float: left;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 21.79px;
+    color: #000000;
+  }
+}
